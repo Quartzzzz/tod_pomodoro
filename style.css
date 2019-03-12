@@ -59,14 +59,18 @@ table {
 	text-align: center;
 }
 .head {
-	font-size: 3em
+	font-size: 3em;
+	padding: 0.5em;
 }
 .setter {
 	display: flex;
 	justify-content: space-around;
+	padding: 5px;
 
 }
-
+.value, .key {
+	width: 100%;
+}
 
 
 
