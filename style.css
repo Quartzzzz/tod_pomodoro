@@ -65,8 +65,10 @@ table {
 .setter {
 	display: flex;
 	justify-content: space-around;
-	padding: 5px;
-
+	padding: 5px 0;
+}
+h2 {
+	font-weight: bold;
 }
 .value, .key {
 	width: 100%;
