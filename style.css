@@ -50,10 +50,13 @@ table {
 	height: 100%;
 	margin: 0 auto;
 }
+.sub-container {
+  border: 5px solid;
+}
 .pomclock {
 	position: relative;
 	top: 25%;
-	background-color: red;
+	background-color: grey;
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
@@ -61,7 +64,10 @@ table {
 }
 .head {
 	font-size: 3em;
-	padding: 0.5em;
+	padding: 0.25em 0.5em 0.5em;
+}
+.setter-container {
+	border-style: 1px solid	black;
 }
 .setter {
 	display: flex;
