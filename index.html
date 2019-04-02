@@ -22,64 +22,41 @@
 				</div>
 				<div class="setter">
 					<div class="setter value session">
-						<p>
-							Plus
-						</p>
-						<p>
-							25:00
-						</p>
-						<p>
-							Moins
-						</p>		
+						<span id="session-time-increaser">+</span>
+						<span id="session-time-value">25</span>
+						<span id="session-time-decreaser">-</span>							
 					</div>
 					<div class="setter value break">
-						<p>
-							Plus
-						</p>
-						<p>
-							5:00
-						</p>
-						<p>
-							Moins
-						</p>
+						<span id="break-time-increaser">+</span>
+						<span id="break-time-value">5</span>
+						<span id="break-time-decreaser">-</span>
 					</div>								
 				</div>				
 			</div>			
 			<div class="clock sub-container">
 				<div class="setter top-buttons">
-					<div class="play">
-						<p>
-							Play
-						</p>
-					</div>
+					<span id="start">Start</span>
 					<div class="restart">
-						<p>
-							Restart
-						</p>
+						<span id="restart">Restart</span>	
 					</div>
 				</div>
 				<div class="timer">
-					<h2>Session</h2>
-						<div class="chrono">
-							<p>
-								25:00
-							</p>
-						</div>
+					<h2 id="timer-state">Session</h2>
+						<span id="timer"></span>
 				</div>
 				<div class="setter bottom-buttons">
 					<div class="pause">
-						<p>
-							Pause
-						</p>
+						<span id="pause">Pause</span>
 					</div>
 					<div class="stop">
-						<p>
-							Stop
-						</p>
+						<span id="stop">Stop</span>
 					</div>
 				</div>				
 			</div>
 		</div>
 	</div>
+	<audio id="kalimba" src="HIT_KALIMBA.wav"></audio>
+	<audio id="shaker" src="SHAKER_1.wav"></audio>
+	<script type="text/javascript" src="pomodoro_clock.js"></script>
 </body>
 </html>

@@ -26,6 +26,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	height: 100vh; 
+	font-family: 'Arial';
+	background: grey;
 }
 ol, ul {
 	list-style: none;
@@ -43,9 +45,9 @@ table {
 	border-spacing: 0;
 }
 
+/* MY CSS */
 
 .container {
-	background-color: grey;
 	width: 50%;
 	height: 100%;
 	margin: 0 auto;
@@ -55,7 +57,7 @@ table {
 }
 .pomclock {
 	position: relative;
-	top: 25%;
+	top: 20%;
 	background-color: grey;
 	width: 75%;
 	margin: 0 auto;
@@ -64,6 +66,8 @@ table {
 }
 .head {
 	font-size: 3em;
+	font-weight: bolder;
+	text-transform: uppercase;
 	padding: 0.25em 0.5em 0.5em;
 }
 .setter-container {
@@ -76,6 +80,9 @@ table {
 }
 h2 {
 	font-weight: bold;
+}
+.timer {
+	font-size: 1.5em;
 }
 .value, .key {
 	width: 100%;
