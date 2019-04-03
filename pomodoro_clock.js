@@ -99,7 +99,7 @@ startBtn.addEventListener('click', () => {
 })
 
 function start() {
-	intervalID = setInterval(decreaseSec, 10);
+	intervalID = setInterval(decreaseSec, 1000);
 
 }
 
